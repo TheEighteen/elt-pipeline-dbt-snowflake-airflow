@@ -1,0 +1,15 @@
+[0m09:10:40.140162 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002737B1DAD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002737B16E2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002737B1DADD0>]}
+
+
+============================== 09:10:40.144351 | 831f93ef-c5f8-48c4-8ef4-a563235ff1c2 ==============================
+[0m09:10:40.144351 [info ] [MainThread]: Running with dbt=1.9.6
+[0m09:10:40.144351 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\gvk18\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt test', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:10:40.145856 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\gvk18\dbt-dag\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m09:10:40.146861 [debug] [MainThread]: Command `dbt test` failed at 09:10:40.146861 after 0.08 seconds
+[0m09:10:40.147862 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002737B1D2B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002737B1D3450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002737B17B150>]}
+[0m09:10:40.147862 [debug] [MainThread]: Flushing usage events
+[0m09:10:40.369132 [debug] [MainThread]: An error was encountered while trying to flush usage events
