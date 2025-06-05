@@ -30,7 +30,7 @@ This project demonstrates a modern ELT pipeline using:
 Graphql
 
 ```python
-elt-pipeline/
+elt-data_pipeline/
 ├── dags/
 │   └── dbt_dag.py                # Airflow DAG using Cosmos
 ├── dbt/
